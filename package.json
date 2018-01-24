@@ -1,6 +1,6 @@
 {
   "name": "generator-metaljs-component",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generates a Metaljs component.",
   "homepage": "",
   "author": {
@@ -8,14 +8,9 @@
     "email": "phillipchan1@gmail.com",
     "url": ""
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
-  "keywords": [
-    "",
-    "yeoman-generator"
-  ],
+  "keywords": ["", "yeoman-generator"],
   "dependencies": {
     "yeoman-generator": "^1.0.0",
     "chalk": "^1.1.3",

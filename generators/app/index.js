@@ -44,10 +44,15 @@ module.exports = Generator.extend({
       }
     );
 
-    // this.template(
-    //   `${this.templatePath}/Component.js`,
-    //   this.componentName + '.js'
-    // );
+    this.fs.copyTpl(
+      this.templatePath('Styles.scss'),
+      this.destinationPath(
+        `${this.props.componentName}/${this.props.componentName}.scss`
+      ),
+      {
+        componentName: this.props.componentName
+      }
+    );
   },
 
   install: function() {
