@@ -6,7 +6,7 @@ import style from './<%= componentName %>.scss';
 class <%= componentName %> extends JSXComponent {
 	render() {
 		return (
-			<div class="{style.<%= componentName %>}">
+			<div class={style.<%= componentName %>}>
 				<%= componentName %> component Works!
 			</div>
 		);
